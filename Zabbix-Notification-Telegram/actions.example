@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<body>
+		<messages>
+<![CDATA[
+Host: {HOST.HOST} [{HOST.IP}]
+Last value: {ITEM.LASTVALUE1} ({TIME})
+DESC: {INVENTORY.NOTES1}
+Duration: {EVENT.AGE}]]>
+		</messages>
+	</body>
+	<settings>
+		<graphs>True</graphs>
+		<hostlinks>True</hostlinks>
+		<graphlinks>True</graphlinks>
+		<triggerlinks>True</triggerlinks>
+		<tag>True</tag>
+		<keyboard>True</keyboard>
+		<graphs_period>10800</graphs_period>
+		<host>{HOST.ID1}</host>
+		<itemid>{ITEM.ID1} {ITEM.ID2} {ITEM.ID3} {ITEM.ID4}</itemid>
+		<triggerid>{TRIGGER.ID}</triggerid>
+		<eventid>{EVENT.ID}</eventid>
+		<actionid>{ACTION.ID}</actionid>
+		<title><![CDATA[{HOST.HOST} - {EVENT.NAME}]]></title>
+        <triggerurl><![CDATA[{TRIGGER.URL}]]></triggerurl>
+		<tags><![CDATA[{EVENT.TAGS}]]></tags>
+	</settings>
+</root>
